@@ -1,0 +1,130 @@
+body{
+    background-color: #F5EFE6;
+}
+
+nav {
+    background-color: #BCCEF8; 
+    height: 72px;
+    width: 1235px;
+    left: 138px;
+    right: 139px;
+    top: nullpx;
+    border-radius: 10px;
+    position: absolute;
+
+}
+
+nav .menu{
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+
+nav .menu li{
+    float:left;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin: 15px;
+    letter-spacing: 0em;
+    line-height: 38px;
+    font-size: 21px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+}
+
+
+.image{
+    list-style-type: none;
+    display: flex;
+    float: right;
+
+}
+
+.image a img{
+    width: 40px;
+    height: auto;
+    margin: 0px 10px;
+    
+
+
+}
+
+nav ul{
+    float: left;
+}
+
+.image{
+    margin-right: 10px;
+}
+
+.foto{
+    height: 320px;
+    width: 320px;
+    margin:213px 258px auto 934px;
+    border-radius: 80px;
+    background-image:url("/img/IMG_20220808_223411.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+.my-head{
+    /* height: 169px;
+    width: 554px; */
+    /* margin: 289px auto auto 252px; */
+    position: absolute;
+    width: 554px;
+    height: 169px;
+    left: 252px;
+    top: 289px;
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 56px;
+    color: #000000;
+   
+   
+
+}
+
+.my-name{
+    color: #1B91FF;
+}
+
+.button-load{
+    position: absolute;
+    height: 54px;
+    width: 252px;
+    left: 614px;
+    top: 608px;
+    border-radius: 15px;
+    background: rgba(188, 206, 248, 0.5);
+backdrop-filter: blur(2px);
+   
+    
+
+}
+
+.button-load text{
+    margin: 10px 65px 12px 60px;
+    font-family: Aleo;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    position: absolute;
+
+}
+
+.arrow{
+    color: #000000;
+    position: absolute;
+    margin: 672px 772px auto 740px;
+}
+
