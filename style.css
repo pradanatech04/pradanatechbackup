@@ -94,7 +94,8 @@ nav ul{
 }
 
 .my-name{
-    color: #1B91FF;
+    /* color: #1B91FF; */
+    color:#000000;
 }
 
 .button-load{
