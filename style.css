@@ -129,3 +129,38 @@ backdrop-filter: blur(2px);
     margin: 672px 772px auto 740px;
 }
 
+#about h1{
+    position: absolute;
+    width: 163px;
+    height: 36px;
+    left: 674px;
+    top: 798px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+#about p{
+    position: absolute;
+width: 693px;
+height: 84px;
+left: 409px;
+top: 879px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+}
