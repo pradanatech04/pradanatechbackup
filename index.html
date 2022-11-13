@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page">
     <div>
     <nav>
         <ul class="menu">
-            <li><a href="/">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Project</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Roadmap</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
         </ul>
 
         <ul class="image">
@@ -26,12 +27,20 @@
     </nav>
     </div>
 
-        
-        <h1 class="my-head">
+        <div class="headline">
+        <!-- <h1 class="my-head">
             Hi! My name is <br/>
             <span class="my-name">Ega Pradana</span> <br/>
             I’m a Fullstack Developer
-        </h1>
+        </h1> -->
+
+        <h1 class="ml4 m14-mod">
+            <span class="letters letters-1">Hola!</span>
+                <span class="letters letters-2" style=" line-height: 1.0;">こんにちは<br/> Kon'nichiwa</span>
+                <span class="letters letters-3">Bonjour!</span>
+              </h1>
+
+        </div>
     
 
     <div class="foto"></div>
@@ -40,8 +49,10 @@
     <svg class="arrow" width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M10.9393 29.0607C11.5251 29.6464 12.4749 29.6464 13.0607 29.0607L22.6066 19.5147C23.1924 18.9289 23.1924 17.9792 22.6066 17.3934C22.0208 16.8076 21.0711 16.8076 20.4853 17.3934L12 25.8787L3.51472 17.3934C2.92893 16.8076 1.97918 16.8076 1.3934 17.3934C0.807612 17.9792 0.807612 18.9289 1.3934 19.5147L10.9393 29.0607ZM10.5 0L10.5 28H13.5L13.5 0L10.5 0Z" fill="black"/>
         </svg> -->
+
+        <div class="wrap-btn-quotes">
         <div class="wrap-button">
-        <div class="button-load" role="button" >
+        <div class="button-load" role="button" onclick="delete_div()">
             <b>Hire me</b>
         </div>
 
@@ -51,6 +62,8 @@
     </div>
 
          <div class="quotes"></div>
+
+        </div>
         <!-- <div id="about">
              <h1>ABOUT ME</h1>
             <p>I'm Ega Pradana, I'm 18 years old Indonesia Fresh graduate Fullstack Developer. I am an introvert, quiet and I really like to talk about the future.
@@ -104,6 +117,11 @@
                 
             </div>
         
+            <!-- Tets -->
+            
+        </div>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <!-- end -->
            
     <script src="main.js"></script>
 </body>
